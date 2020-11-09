@@ -1,0 +1,343 @@
+ 
+ 
+ /* Seccion navbar
+--------------------------------*/
+
+.nav-item{
+  background-color: white;
+}
+.navbar-bg-light{
+  background-color: white;
+}
+.navbar-collapse{
+  background-color: white;
+}
+.hero-container{
+  display: table;
+  width: 100%;
+  height: 75vh;
+  background: url("../img/1.jpg")center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.6) ;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo{
+    width: 130px;
+    height: 80px;
+    background-color: white;
+}
+.h3p-3 mb-2 bg-info text-white{
+  text-align: center;
+}
+
+.p-3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+ /* Seccion fachada
+--------------------------------*/
+
+.fachada{
+  margin-bottom:15px;
+  margin-top:20px;
+  border-radius: 8px;
+}
+
+.section-title{
+ width:100% ;
+ height: 30px;
+}
+
+.about-title1{
+  text-align: justify;
+  width: 100%;
+  padding: 30px 40px 0px 0px;
+  font-size: 28px;
+  margin-left: -10px;
+}
+.about-text1{
+  padding: 30px 40px 0px 0px;
+  position: relative;
+  text-align: justify;
+
+}
+
+ /* Seccion galeria
+--------------------------------*/
+
+.Galería{
+  margin-top: 50px;
+}
+
+.carousel-item{
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.carousel-item img{
+  height: 100%;
+  border-radius: 30px;
+}
+
+ /* Seccion de habitaciones
+--------------------------------*/
+
+.doble{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  margin-top: -15px;
+}
+.cuadruples{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+ 
+}
+
+.sextuples{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+
+}
+.Baño-compartido{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+
+}
+
+.about-title{
+width: 100%;
+padding-left: 50%;
+margin-bottom: 30px;
+}
+.about-text{
+  padding-bottom: -50%; 
+  padding-right: 40px;
+  text-align: justify;
+  margin-bottom: 30px;
+  align-content: space-between;
+}
+
+
+/* Culture Section
+--------------------------------*/
+
+#testimonials {
+  background: linear-gradient(#C1E9BC,#8BBCB7,#17A2B8);
+  padding: 0px 0;
+  margin-bottom: 30px;
+}
+
+#testimonials .profile {
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+
+}
+
+#testimonials .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #8BBCB7;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 220px;
+  width: 220px;
+  background-color: white;
+  padding-top: 40px;
+}
+
+#testimonials .profile .pic img {
+  max-width: 100%;
+}
+
+#testimonials .quote {
+  position: relative;
+  background: #fff;
+  padding: 30px;
+  margin: 50px 20px 50px 20px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+ /* Seccion de reserva
+--------------------------------*/
+#Reserva {
+  background: #fff;
+padding-top: 15px;
+padding-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+#Reserva .Reserva-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#Reserva .Reserva-item .details {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#Reserva .Reserva-item .details h4 {
+  font-size: 16px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#Reserva .Reserva-item .details span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(0, 15px, 0);
+}
+
+#Reserva .Reserva-item:hover .details {
+  opacity: 0.8;
+}
+
+
+#Reserva .Reserva-item:hover .details h4 {
+  transform: translate3d(0, 0, 0);
+}
+
+#Reserva .Reserva-item:hover .details span {
+  transform: translate3d(0, 0, 0);
+}
+
+.div [class= "col"]{
+  border: 1px solid #17A2B8;
+}
+
+.reserva{
+
+  width: 500px;
+  height: 300px;
+  border-radius: 8px; 
+}
+.section-description{
+text-align: center;
+}
+
+.contactForm{
+  width: 500px;
+  height: 300px;
+}
+
+.section-title-divider{
+margin-top:30px;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color:#02586A;
+  color: #fff;
+}
+
+.ubicacion{
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  border-color: #17A2B8;
+  border-style: inherit;
+
+}
+
+.fa-map-marker{
+  color: #17A2B8;
+}
+.fa-envelope{
+  color: #17A2B8;
+}
+.fa-phone{
+  color: #17A2B8;
+}
+.modal-header {
+  text-align: center;
+}
+.modal-content {
+  border: none;
+  border-radius: 0px;
+  padding: 20px;
+}
+.modal-titulo {
+  padding-left: 30%;
+}
+#modal {
+  margin-top: 150px;
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 90%;
+  }
+  .contactForm {
+    width: 100%;
+  }
+  #testimonials .profile .pic {
+    margin: 0 auto;
+  }
+  #testimonials .quote {
+    margin: 20px 20px 20px 20px;
+  }
+  #testimonials {
+    padding-bottom: 40px;
+  }
+  .about-text {
+    padding: 10px;
+  }
+  .about-title {
+    padding-left: 0px;
+  }
+  .carousel-item {
+    height: 215px;
+  }
+  .w-100 {
+    max-width: 100%;
+  }
+  .about-text1 {
+    padding: 10px;
+  }
+  .about-title1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+}
